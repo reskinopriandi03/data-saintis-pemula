@@ -141,4 +141,4 @@ main_date_df = day_df[(day_df["dteday"] >= str(start_date)) &
 
 
 
-st.caption('Copyright (c) Data Scientist pemula 2023.')
+st.caption('Copyright (c) Data Scientist Pemula 2023.')
