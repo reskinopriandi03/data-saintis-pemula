@@ -11,9 +11,9 @@ st.write('berikut adalah tampilan ringkas dari data semula :')
 
 ###membaca file CSV
 # Path file hour_df
-hour_df = pd.read_csv("hour_df.csv")
+day_df = pd.read_csv("../data/day_df.csv")
 # Path file day_df
-day_df = pd.read_csv("day_df.csv")
+hour_df = pd.read_csv("../data/hour_df.csv")
 
 st.code(day_df, language='python')
 
@@ -98,7 +98,7 @@ def plot_hourly_visitors(hour_df):
 
     # Menampilkan plot di Streamlit
     st.pyplot(fig)
-
+print(hour_df.info())
 # Memanggil fungsi untuk menghasilkan plot
 plot_hourly_visitors(hour_df)
 
