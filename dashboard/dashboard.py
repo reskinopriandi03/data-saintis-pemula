@@ -11,9 +11,9 @@ st.write('berikut adalah tampilan ringkas dari data semula :')
 
 ###membaca file CSV
 # Path file hour_df
-day_df = pd.read_csv("../data/day_df.csv")
+day_df = pd.read_csv("https://raw.githubusercontent.com/reskinopriandi03/data-saintis-pemula/main/data/day_df.csv")
 # Path file day_df
-hour_df = pd.read_csv("../data/hour_df.csv")
+hour_df = pd.read_csv("https://raw.githubusercontent.com/reskinopriandi03/data-saintis-pemula/main/data/hour_df.csv")
 
 st.code(day_df, language='python')
 
