@@ -122,7 +122,7 @@ max_date = day_df["dteday"].max()
  
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("https://lh3.googleusercontent.com/pw/ADCreHdIQLOKqrBc1QblGawasCm5vCFjkyF4290hUb2hJ-3WI3W2fQ7vc_861AQteinlLNKD06NrSZwZTXvD5gKKAD02yHv-m8V7ZmKBLZSTrFyI4e0a4AB_sDgpv0wxxhp-YQsVYGP8ZIx6Ns2puwHxd2HX6VwVU3BSrPa5G_9hZv8M7wMWlwNX-Q8xa92a6wQ2oKe-pRQIDi92H62PluZsIRKxddFBv5vVxjT7TspnEb2F9Ljk9XNhK84chGpxuYrXp6YZt7pgFME3N5RtqDIGgR8C7FRRxND5HbmTgyr1m2Ih_s5E6zojQbSLFx-jipKzz5uCTpP8Umn0_6igEs4glDbAJB5eaE4IcCAhEnteLpLzlmsxaSb22R_1X4xYcotVcUDp3eKOlTRB94ksFYBMylTueDwzljQ5XUwbJ0e_K2v3IN4VHL2dHRAxsTyOlvq6tKYYQsKnjFD8KjPNgAw41mZEUGfs8NoVEQhC_HbOvUUacvevaiQ14BwP5eiVBg0GSWgs5ZiKLee5pg3A1Mee_GwKshP0jJkTPfbOesEg_TnXKOWZSMQRtr178bUeKHgKZE6GVgTmE2tIN1vkaZ9dZbIGortTEFNM3Cpa1GK4Riawr8v88cR-RDNwhUg2iP0T7bN96hcUBs0y5mWFN2-ffV6CnIWO1jksCCVqEIFo0Cmho_pWQhaEx9rFB61Fd-rnEEYrEhGtl_1FLjZDMD3e9fBD5ugudu9Mf_xXDXMyi_d8To47KdS6eozStCqL8t4vLIn3LSN6GXlQ-7TRgilYJ2UBt6HZyWGajbP8nAjJU3qXGWz-bS3g4eNcO5XYz13lyDOimo_ZzSfqjFsV9rhV9dAj1LwjrMqF3MO6M7N_2gS52A071DGRc4flCa31uizoIKjUHJg-p3lk8fN-HJ7yqA=w619-h619-s-no-gm?authuser=0")
+    st.image("https://github.com/reskinopriandi03/data-saintis-pemula/blob/main/data/kelinci_bersepeda.jpg?raw=true")
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
